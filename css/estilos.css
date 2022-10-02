@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sriracha&display=swap');
+
+body{font-family: 'Sriracha', cursive;}
+
+
+h1{
+    text-align: center;
+    border: 3px solid black;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: #FFFFFF;
+text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px black, 0px -2px black,
+            3px 3px 0 yellow, 3px -3px 0 yellow, -3px 3px 0 yellow, -3px -3px 0 yellow, 3px 1px 0 yellow, 1px 3px 0 yellow, -3px -1px yellow, -1px -3px yellow;
+
+}
+
+#circulo-0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 12rem;
+    
+}
+.circulos{
+    border-radius: 50%;
+    border: 5px solid #000 ;
+    position: absolute;
+    transition: all 0.5s 0s ease;
+}
+#circulo-1{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    
+}
+#circulo-2{
+    height: 150px;
+    width: 150px;
+    z-index: 2;
+}
+#circulo-3{
+    height: 100px;
+    width: 100px;
+    z-index: 3;
+}
+#circulo-4{
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+}
+
+#circulo-5{
+    height: 250px;
+    width: 250px;
+    z-index: 0;
+}
+
+#Nuevo_circulo{ display: flex;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Indie Flower', cursive;
+margin-top: 20px;}
+
+#Reset{ display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+a{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+select{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;}
